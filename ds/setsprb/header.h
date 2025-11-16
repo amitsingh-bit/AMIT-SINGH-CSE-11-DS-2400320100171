@@ -3,7 +3,11 @@
 #include<vector>
 #include<math.h>
 #include<string.h>
+<<<<<<< HEAD
 #include "myFirstStack.h"
+=======
+#include t"myFirstStack.h"
+>>>>>>> 5df704bb22634645baf8976a4575bff34a01979f
 using namespace std;
 int main(){
     stk mS;
