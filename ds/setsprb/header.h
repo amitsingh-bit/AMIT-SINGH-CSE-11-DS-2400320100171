@@ -3,7 +3,7 @@
 #include<vector>
 #include<math.h>
 #include<string.h>
-#include t"myFirstStack.h"
+#include "myFirstStack.h"
 using namespace std;
 int main(){
     stk mS;
