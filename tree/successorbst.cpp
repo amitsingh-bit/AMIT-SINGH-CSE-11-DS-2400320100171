@@ -43,13 +43,11 @@ void BSTInsertion(node* &t,int x){
         }
     }
     node* newNode = makeNode(x);
-
     if(q==NULL){
         t = newNode;
     }
     else{
         newNode->father = q;
-
         if(x < q->data){
             q->left = newNode;
         }
