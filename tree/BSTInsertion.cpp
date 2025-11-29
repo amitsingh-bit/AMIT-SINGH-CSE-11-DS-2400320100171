@@ -73,6 +73,15 @@ node *BSTMax(node *t){
 
 /***************************************************************/
 
+void inorder(node *t){
+    if(t != NULL){
+        inorder(t->left);
+        cout << t->data << " ";
+        inorder(t->right);
+    }
+}
+
+/******************************************/
 int main() {
     Tree t;
     t.root = NULL;
@@ -83,6 +92,8 @@ int main() {
     BSTInsertion(t.root, 370);
     BSTInsertion(t.root, 160);
     BSTInsertion(t.root, 200);
+    cout << "\nInorder Traversal: ";
+    inorder(t.root);
     node *minNode = BSTMin(t.root);
     cout << "Minimum value in the BST: " << minNode->data << endl;
     node *maxNode = BSTMax(t.root);
