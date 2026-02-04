@@ -21,7 +21,7 @@ int main(){
     av[3].push_back(13);
     av[3].push_back(14);
 
-    cout<<"the elements of array of vectors are:"<<endl;
+    cout<<"the elements of array of vectors are:"<<"\n";
     int i=0;
     for(i=0;i<4;i++){
         for(int j=0;j<av[i].size();j++){
