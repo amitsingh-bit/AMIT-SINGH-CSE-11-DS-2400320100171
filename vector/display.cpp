@@ -12,7 +12,7 @@ int main(){
     v.push_back(70);
     cout<<"the vector elements are:"<<endl;
     int i=0;
-    for(i=0;i<=6;i++){
+    for(i=0;i<v.size();i++){
         cout<<v[i]<<endl;
     }
 
